@@ -65,6 +65,7 @@ function debounce(fn, debounceTime) {
 }
 
 function addToSaved(item) {
+  input.value = "";
   const savedItem = `<li class="saved-item"> 
   <div class="saved-item__left">
   <span>Name: ${item.name}</span>
