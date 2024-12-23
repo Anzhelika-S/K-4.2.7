@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+.search {
+  margin: 0 auto;
+  padding: 50px;
+  width: 500px;
+  height: 100vh;
+  background-color: gray;
+}
+
+.search__input {
+  width: 100%;
+  font-size: 24px;
+  border: none;
+}
+
+.repos-list {
+  list-style: none;
+  margin-block: 0;
+  padding-inline: 0;
+  width: 100%;
+}
+
+.repos-list li {
+  width: 100%;
+  line-height: 2em;
+  background-color: lightgray;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.repos-list li:hover {
+  width: 100%;
+  line-height: 2em;
+  background-color: lightblue;
+}
+
+.repos-saved {
+  margin-block: 0;
+  padding-inline: 0;
+  margin-top: 20px;
+}
+
+.saved-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid black;
+
+  background-color: pink;
+}
+
+.saved-item__left {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.item-delete {
+  border: none;
+  background-color: pink;
+
+  padding: 10px;
+}
+
+.item-delete__svg {
+  content: url('data:image/svg+xml,<svg width="46" height="42" viewBox="0 0 46 42" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 40.5L44 2" stroke="%23FF0000" stroke-width="4"/><path d="M44 40.5L2 2" stroke="%23FF0000" stroke-width="4"/></svg>');
+}
